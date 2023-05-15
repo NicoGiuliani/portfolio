@@ -4,6 +4,12 @@
 
 @layer components {
   .heroButton {
-    @apply mx-1 px-6 py-2 border border-[#68f0be]/40 rounded-lg uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#68f0be] hover:text-[#68f0be]/40
+    @apply bg-[#222] mx-1 px-6 py-2 border border-[#68f0be]/40 rounded-lg uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#68f0be] hover:text-[#68f0be]/40
+  }
+}
+
+@layer components {
+  .borderBlur {
+    @apply shadow-[0_0_5px_5px_rgba(104,240,190,0.4)]
   }
 }

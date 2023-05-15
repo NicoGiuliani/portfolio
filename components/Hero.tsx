@@ -22,7 +22,7 @@ export default function Hero({ }: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <HeroBackground />
       <Image
-        className='relative rounded-3xl h-32 w-32 mx-auto object-cover'
+        className='relative rounded-3xl h-44 w-44 mx-auto object-cover borderBlur'
         src="/profile_picture.jpg"
         width="500"
         height="500"
