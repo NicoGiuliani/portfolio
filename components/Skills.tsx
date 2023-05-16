@@ -43,7 +43,6 @@ function Skills({ }: Props) {
         <Skill directionLeft={true} skillName="linux" />
         <Skill directionLeft={true} skillName="git" />
       </div>
-      <Modal />
     </motion.div>
   )
 }

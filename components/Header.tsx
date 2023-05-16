@@ -1,6 +1,8 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from 'framer-motion'
+import { HashLink } from 'react-router-hash-link';
+import { BrowserRouter } from 'react-router-dom';
 
 type Props = {}
 
@@ -24,23 +26,29 @@ export default function Header({ }: Props) {
         <SocialIcon url="https://www.linkedin.com/in/nico-julian/" fgColor="gray" bgColor="transparent" />
         <SocialIcon url="https://github.com/NicoGiuliani" fgColor="gray" bgColor="transparent" />
       </motion.div>
-      <motion.div
-        initial={{
-          x: 200,
-          opacity: 0
-        }}
-        whileInView={{
-          x: 0,
-          opacity: 1
-        }}
-        transition={{
-          duration: 1.5
-        }}
-        className='flex flex-row items-center cursor-pointer'
-      >
-        <SocialIcon network="email" fgColor="gray" bgColor="transparent" />
-        <p className='uppercase text-sm text-gray-400 hidden sm:inline-flex'>Contact</p>
-      </motion.div>
+
+      <BrowserRouter>
+        <HashLink smooth to="#contact">
+          <motion.div
+            initial={{
+              x: 200,
+              opacity: 0
+            }}
+            whileInView={{
+              x: 0,
+              opacity: 1
+            }}
+            transition={{
+              duration: 1.5
+            }}
+            className='flex flex-row items-center cursor-pointer'
+          >
+            <SocialIcon network="email" fgColor="gray" bgColor="transparent" />
+            <p className='uppercase text-sm text-gray-400 hidden sm:inline-flex'>Contact</p>
+          </motion.div>
+        </HashLink>
+      </BrowserRouter>
+
     </header>
   )
 }
