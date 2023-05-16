@@ -19,15 +19,16 @@ export default function Hero({ }: Props) {
   });
 
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-[1280px] flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <HeroBackground />
       <Image
-        className='relative rounded-3xl h-44 w-44 mx-auto object-cover borderBlur'
+        className='relative rounded-3xl !my-[15px] h-44 w-44 mx-auto object-cover borderBlur'
         src="/profile_picture.jpg"
         width="500"
         height="500"
         alt="profile image"
       />
+      {/* <ProfilePicture /> */}
       <div className="z-20">
         <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
           <span className="mr-3">
