@@ -6,7 +6,8 @@ type Props = {}
 
 export default function ExperienceCard({ }: Props) {
   return (
-    <article className='flex flex-col m-12 borderBlur rounded-3xl max-w-7xl mx-auto items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] p-10 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    
+    <article className='flex flex-col m-12 borderBlur grayGradient rounded-3xl max-w-7xl mx-auto items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] p-10 cursor-pointer transition-opacity duration-200 overflow-hidden'>
       <motion.img
         initial={{
           y: -100,

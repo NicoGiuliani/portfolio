@@ -11,11 +11,12 @@
     @apply outline-none bg-slate-400/10 rounded-lg border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:text-[#68f0be]/40 hover:border-[#68f0be]
   }
 
-}
-
-@layer components {
   .borderBlur {
     @apply shadow-[0_0_5px_5px_rgba(104,240,190,0.4)]
   }
-}
 
+  .grayGradient {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  }
+
+}
