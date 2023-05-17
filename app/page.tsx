@@ -7,8 +7,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import { BrowserRouter } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+// import { BrowserRouter } from "react-router-dom";
+// import { HashLink } from 'react-router-hash-link';
 import { GiRattlesnake } from "react-icons/gi";
 
 
@@ -41,15 +41,13 @@ export default function Home() {
         <Contact />
       </section>
 
-      <BrowserRouter>
         <footer className="sticky bottom-5 w-full">
           <div className="flex items-center justify-center">
-            <HashLink smooth to="#top">
+            <a href="#top">
               <GiRattlesnake className="h-12 w-12 text-gray-400 hover:text-[#68f0be]" />
-            </HashLink>
+            </a>
           </div>
         </footer>
-      </BrowserRouter>
 
     </main>
   )

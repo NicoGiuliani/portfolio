@@ -1,8 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from 'framer-motion'
-import { HashLink } from 'react-router-hash-link';
-import { BrowserRouter } from 'react-router-dom';
 import { MdOutlineEmail } from "react-icons/md";
 
 type Props = {}
@@ -28,8 +26,7 @@ export default function Header({ }: Props) {
         <SocialIcon url="https://github.com/NicoGiuliani" fgColor="gray" bgColor="transparent" />
       </motion.div>
 
-      <BrowserRouter>
-        <HashLink smooth to="#contact">
+        <a href="#contact">
           <motion.div
             initial={{
               x: 200,
@@ -47,8 +44,7 @@ export default function Header({ }: Props) {
             <MdOutlineEmail className='w-[25px] h-[25px] text-gray-400'/>
             <p className='uppercase text-sm text-gray-400 hidden sm:inline-flex'>Contact</p>
           </motion.div>
-        </HashLink>
-      </BrowserRouter>
+        </a>
 
     </header>
   )

@@ -2,8 +2,6 @@ import React from 'react'
 import HeroBackground from './HeroBackground'
 import Image from 'next/image'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { BrowserRouter } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
 type Props = {}
 
@@ -17,7 +15,7 @@ export default function Hero({ }: Props) {
     loop: true,
     delaySpeed: 1000,
   });
-
+  
   return (
     <div className="h-[1280px] flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <HeroBackground />
@@ -29,7 +27,6 @@ export default function Hero({ }: Props) {
         height="500"
         alt="profile image"
       />
-      {/* <ProfilePicture /> */}
       <div className="z-20">
         <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
           <span className="mr-3">
@@ -38,22 +35,21 @@ export default function Hero({ }: Props) {
           <Cursor cursorColor="#68f0be" />
         </h1>
 
-        <BrowserRouter>
+          {/* anchors used as temporary fix for hash links not working in Next 13 */}
           <div className="pt-5">
-            <HashLink smooth to="#about">
+            <a href="#about">
               <button className="heroButton">About</button>
-            </HashLink>
-            <HashLink smooth to="#experience">
+            </a>
+            <a href="#experience">
               <button className="heroButton">Experience</button>
-            </HashLink>
-            <HashLink smooth to="#skills">
+            </a>
+            <a href="#skills">
               <button className="heroButton">Skills</button>
-            </HashLink>
-            <HashLink smooth to="#projects">
+            </a>
+            <a href="#projects">
               <button className="heroButton">Projects</button>
-            </HashLink>
+            </a>
           </div>
-        </BrowserRouter>
 
       </div>
     </div>
