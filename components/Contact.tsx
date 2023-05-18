@@ -1,7 +1,6 @@
 import React from 'react'
 import { SubmitHandler, useForm } from "react-hook-form";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
-import Blob from './Spline';
 
 type Props = {}
 
@@ -15,8 +14,7 @@ type FormData = {
 export default function Contact({ }: Props) {
   const { register, handleSubmit } = useForm<FormData>();
   const onSubmit: SubmitHandler<FormData> = (formData) => {
-    // modify this to send an email directly
-    console.log(formData);
+    window.location.href = `mailto:ngiuliani507103@hotmail.com?&subject=${formData.subject}&body=${formData.message}`;
   };
 
   return (

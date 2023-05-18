@@ -9,7 +9,8 @@ import {
   TbBrandJavascript, 
   TbBrandCss3, 
   TbBrandGithub, 
-  TbBrandTypescript 
+  TbBrandTypescript,
+  TbBrandTailwind,
 }
  from 'react-icons/tb'
 import { SiCisco, SiElm, SiLinux } from 'react-icons/si'
@@ -58,6 +59,9 @@ function Skill({ directionLeft, skillName }: Props) {
     case "linux":
       skillObject = <SiLinux className="p-8 object-cover w-24 h-24 xl:w-32 xl:h-32" />;
       break;
+    case "tailwind":
+      skillObject = <TbBrandTailwind className="p-8 object-cover w-24 h-24 xl:w-32 xl:h-32" />;
+      break;
     default:
       skillObject = "empty";
   }
@@ -70,7 +74,7 @@ function Skill({ directionLeft, skillName }: Props) {
           x: directionLeft ? -200 : 200,
           opacity: 0,
         }}
-        transition={{ duration: 1, delay: 1 }}
+        transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
         className="borderBlur rounded-full hover:bg-[#292929] object-cover w-24 h-24 xl:w-32 xl:h-32">
         {skillObject}

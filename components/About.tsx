@@ -43,9 +43,9 @@ export default function About({}: Props) {
       />
 
       <div className='space-y-10 px-0 md:px-10'>
-        <h4 className='text-2xl sm:text-4xl font-semibold'>Here's some background</h4>
+        <h4 className='text-2xl sm:text-4xl font-semibold'>Hey, my name's Nico</h4>
         <p className='text-xs sm:text-sm'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique repudiandae odio magnam? Quaerat maiores eaque accusamus, excepturi asperiores reprehenderit facilis quae, aspernatur magni fugiat soluta culpa rerum deleniti distinctio a. Suscipit veniam numquam ipsum assumenda error eveniet a, ullam distinctio, est, incidunt dolore repellat! Harum reiciendis repellat amet minus.    
+          I'm a fullstack web developer from Eastern Washington with about three years of experience. I enjoy building interesting websites, writing efficient scripts, and learning about new technologies. I also have three years of experience as an R&D technician working with IoT devices. Outside of tech, I enjoy exploring the region and photographing wildlife.
         </p>
       </div>
     </motion.div>

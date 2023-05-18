@@ -1,5 +1,3 @@
-'use client'
-
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
@@ -44,15 +42,19 @@ function Projects({ }: Props) {
             rewind: true,
             gap   : '1rem',
           }} 
-          aria-label="Work Experience">
-            <SplideSlide>
-              <p className='h-[50px] w-[100px] bg-orange-300/30 text-center justify-center items-center align-middle my-0 mx-auto'>Something</p>
+          aria-label="Work Experience"
+          className="borderBlur bg-gradient-to-b from-[#222] to-[#333] m-10 max-w-7xl rounded-lg p-10">
+            <SplideSlide className='mx-auto text-center justify-center items-center'>
+                <a href="https://nicogiuliani.github.io/react-subnet-calculator/">
+                <img className="max-w-5xl mx-auto rounded-lg" src="subnet_calculator_preview.png" alt="" />
+                </a>
+                <h1 className="text-xl font-semibold">Subnet Calculator</h1>
             </SplideSlide>
-            <SplideSlide>
-              <p className='h-[50px] w-[100px] bg-orange-300/30 text-center justify-center items-center align-middle my-0 mx-auto'>Something</p>
-            </SplideSlide>
-            <SplideSlide>
-              <p className='h-[50px] w-[100px] bg-orange-300/30 text-center justify-center items-center align-middle my-0 mx-auto'>Something</p>
+            <SplideSlide className='mx-auto text-center justify-center items-center'>
+                <a href="https://nicogiuliani.github.io/react-converter/">
+                <img className="max-w-5xl mx-auto rounded-lg" src="binary_converter_preview.png" alt="" />
+                </a>
+                <h1 className="text-xl font-semibold">Binary Converter</h1>
             </SplideSlide>
           </Splide>
       </div>

@@ -1,5 +1,3 @@
-'use client'
-
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import Skill from './Skill'
@@ -39,7 +37,7 @@ function Skills({ }: Props) {
         <Skill directionLeft={false} skillName="html" />
 
         <Skill directionLeft={true} skillName="css" />
-        <Skill directionLeft={true} skillName="ccna" />
+        <Skill directionLeft={true} skillName="tailwind" />
         <Skill directionLeft={true} skillName="linux" />
         <Skill directionLeft={true} skillName="git" />
       </div>

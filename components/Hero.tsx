@@ -38,16 +38,16 @@ export default function Hero({ }: Props) {
           {/* anchors used as temporary fix for hash links not working in Next 13 */}
           <div className="pt-5">
             <a href="#about">
-              <button className="heroButton">About</button>
+              <button className="heroButton borderBlur">About</button>
             </a>
             <a href="#experience">
-              <button className="heroButton">Experience</button>
+              <button className="heroButton borderBlur">Experience</button>
             </a>
             <a href="#skills">
-              <button className="heroButton">Skills</button>
+              <button className="heroButton borderBlur">Skills</button>
             </a>
             <a href="#projects">
-              <button className="heroButton">Projects</button>
+              <button className="heroButton borderBlur">Projects</button>
             </a>
           </div>
 
