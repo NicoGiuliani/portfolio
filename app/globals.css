@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Prevents overflow on the x-axis */
+    overflow-x: hidden;
+}
+
 @layer components {
   .heroButton {
     @apply bg-[#222] mx-3 my-2 px-6 py-2 rounded-lg uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#68f0be] hover:text-[#68f0be]/40

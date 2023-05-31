@@ -17,7 +17,7 @@ export default function Experience({ }: Props) {
         Experience
       </h3>
 
-      <div className='p-10'>
+      <div className='container'>
         <Splide 
           options={{
             rewind: true,

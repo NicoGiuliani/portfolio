@@ -39,7 +39,7 @@ export default function About({}: Props) {
         }}
         src="/about_section_picture.jpg"
         alt="about section picture"
-        className="-mb-[48px] sm:-mb-20 md:mb-0 flex-shrink-0 w-52 h-52 sm:w-60 sm:h-60 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:h-[600px] xl:w-[500px] borderBlur"
+        className="-mb-[48px] sm:-mb-20 md:mb-0 flex-shrink-0 w-52 h-52 sm:w-60 sm:h-60 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:h-[300px] xl:w-[250px] 2xl:h-[600px] 2xl:w-[500px] borderBlur"
       />
 
       <div className='space-y-10 px-0 md:px-10'>

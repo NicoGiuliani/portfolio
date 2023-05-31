@@ -10,7 +10,7 @@ export default function Header({ }: Props) {
     <header className="sticky top-0 flex flex-start justify-between items-center max-w-7xl mx-auto p-5 z-20">
       <motion.div
         initial={{
-          x: -200,
+          x: -120,
           opacity: 0
         }}
         whileInView={{
@@ -20,31 +20,32 @@ export default function Header({ }: Props) {
         transition={{
           duration: 1.5
         }}
-        className='flex flex-row gap-2 items-center'
+        className='flex flex-row gap-2 items-center w-[120px]'
       >
         <SocialIcon url="https://www.linkedin.com/in/nico-julian/" fgColor="gray" bgColor="transparent" />
         <SocialIcon url="https://github.com/NicoGiuliani" fgColor="gray" bgColor="transparent" />
       </motion.div>
 
-        <a href="#contact">
-          <motion.div
-            initial={{
-              x: 200,
-              opacity: 0
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1
-            }}
-            transition={{
-              duration: 1.5
-            }}
-            className='flex flex-row space-x-2 items-center cursor-pointer'
-          >
-            <MdOutlineEmail className='w-[25px] h-[25px] text-gray-400'/>
-            <p className='uppercase text-sm text-gray-400 hidden sm:inline-flex'>Contact</p>
-          </motion.div>
-        </a>
+      
+      <a href="#contact">
+        <motion.div
+          initial={{
+            x: 50,
+            opacity: 0
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1
+          }}
+          transition={{
+            duration: 1.5
+          }}
+          className='flex flex-row space-x-2 items-center cursor-pointer w-[50px] sm:w-[130px]'
+        >
+          <MdOutlineEmail className='w-[25px] h-[25px] text-gray-400'/>
+          <p className='uppercase text-sm text-gray-400 hidden sm:inline-flex'>Contact</p>
+        </motion.div>
+      </a>
 
     </header>
   )
