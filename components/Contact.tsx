@@ -24,7 +24,7 @@ export default function Contact({ }: Props) {
       </h3>
 
       <div>
-        <form onSubmit={handleSubmit(onSubmit)} className='max-[300px]:w-[260px] flex flex-col mx-auto grayGradient borderBlur p-5 sm:p-10 rounded-lg tabsolute space-y-2 z-20'>
+        <form onSubmit={handleSubmit(onSubmit)} className='max-[300px]:w-[260px] flex flex-col mx-auto grayGradient borderBlur p-5 md:p-3 sm:p-10 rounded-lg tabsolute space-y-2 z-20'>
           <div className='flex space-x-2'>
             <input {...register('name')} className="contactInput w-[50%]" type="text" placeholder="Name" />
             <input {...register('email')} className="contactInput w-[50%]" type="email" placeholder="Email" />

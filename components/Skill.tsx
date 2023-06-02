@@ -24,43 +24,43 @@ function Skill({ skillName }: Props) {
   let skillObject = null;
   switch (skillName) {
     case "django":
-      skillObject = <TbBrandDjango className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandDjango className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "react":
-      skillObject = <TbBrandReact className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandReact className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "next":
-      skillObject = <TbBrandNextjs className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandNextjs className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "python":
-      skillObject = <TbBrandPython className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandPython className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "javascript":
-      skillObject = <TbBrandJavascript className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandJavascript className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "typescript":
-      skillObject = <TbBrandTypescript className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandTypescript className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "html":
-      skillObject = <TbHtml className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbHtml className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "css":
-      skillObject = <TbBrandCss3 className="object-cover p-4 w-16 h-16 md:w-20 md:h-20  xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandCss3 className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36 " />;
       break;
     case "ccna":
-      skillObject = <SiCisco className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <SiCisco className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "git":
-      skillObject = <TbBrandGithub className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandGithub className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "elm":
-      skillObject = <SiElm className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32 xl:p-6" />;
+      skillObject = <SiElm className="object-cover p-4 2xl:p-8 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "linux":
-      skillObject = <SiLinux className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <SiLinux className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "tailwind":
-      skillObject = <TbBrandTailwind className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 xl:w-32 xl:h-32" />;
+      skillObject = <TbBrandTailwind className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     default:
       skillObject = "empty";

@@ -23,7 +23,7 @@ export default function Experience({ }: Props) {
           rewind: true,
           gap   : '5rem',
         }} 
-        aria-label="Work Experience" className="w-[100%] sm:w-[70%]">
+        aria-label="Work Experience" className="w-[100%] sm:w-[70%] my-0">
           <SplideSlide>
             <ExperienceCard 
               title="Software Developer" 
