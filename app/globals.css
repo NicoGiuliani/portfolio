@@ -2,28 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --doc-height: 100%;
+ }
+ 
+ html,
+ body {
+  padding: 0;
+  margin: 0;
+  height: 100vh; /* fallback for Js load */
+  height: var(--doc-height);
+ }
+
 html,
 body,
 #root {
-    height: 100%;
+    /* height: 100%;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0; */
+    /* Prevents overflow on the x-axis */
     overflow-x: hidden;
 }
-
-html {
-  overflow: hidden;
-  width: 100%;
-  }
-
-body {
-height: 100%;
-position: fixed;
-overflow-y: scroll;
--webkit-overflow-scrolling: touch;
-}
-
 
 .splide__arrow {
   @apply !hidden
