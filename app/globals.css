@@ -9,9 +9,21 @@ body,
     width: 100%;
     margin: 0;
     padding: 0;
-    /* Prevents overflow on the x-axis */
     overflow-x: hidden;
 }
+
+html {
+  overflow: hidden;
+  width: 100%;
+  }
+
+body {
+height: 100%;
+position: fixed;
+overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
+}
+
 
 .splide__arrow {
   @apply !hidden
