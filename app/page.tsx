@@ -14,7 +14,7 @@ import { GiRattlesnake } from "react-icons/gi";
 export default function Home() {
   return (
     <Suspense fallback={<p>This</p>}>
-    <main className="bg-[#222] h-screen z-0 min-w-[280px] text-white snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#68f0be]">
+    <main className="bg-[#222] h-screen z-0 min-w-[300px] text-white snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#68f0be]">
       <span id="top"/>
       <Header />
 

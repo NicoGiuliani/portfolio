@@ -12,120 +12,121 @@ export default function Experience({ }: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className='h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      className='h-screen relative overflow-hidden flex flex-col justify-evenly items-center'>
+        
+      <h3 className='absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>
         Experience
       </h3>
 
-      <div className='container'>
-        <Splide 
-          options={{
-            rewind: true,
-            gap   : '5rem',
-          }} 
-          aria-label="Work Experience">
+      <Splide 
+        options={{
+          rewind: true,
+          gap   : '5rem',
+        }} 
+        aria-label="Work Experience" className="w-[100%] sm:w-[70%]">
+          <SplideSlide>
+            <ExperienceCard 
+              title="Software Developer" 
+              company="HedgeApple" 
+              companyImage="hedgeapple_logo.jpg"
+              skills={
+                [
+                  "Python", 
+                  "Django", 
+                  "React",
+                  "Next.js",
+                  "HTML",
+                  "CSS",
+                  "JavaScript",
+                ]
+              } 
+              startDate="February 2023"
+              endDate="April 2023"
+              points={
+                [
+                  "Created responsive and user-friendly interfaces using React, Next.js, HTML, CSS, and JavaScript",
+                  "Developed and maintained front-end and back-end components of web applications",
+                  "Collaborated with other developers, designers, and stakeholders to understand project requirements",
+                ]
+              }
+            />
+            </SplideSlide>
+          <SplideSlide>
+            <ExperienceCard 
+              title="Tier I NOC Engineer" 
+              company="Cisco" 
+              companyImage={"cisco_logo.jpg"}
+              skills={
+                [
+                  "CCNA", 
+                  "Troubleshooting", 
+                  "Bash",
+                  "Python",
+                ]
+              } 
+              startDate="October 2022"
+              endDate="January 2023"
+              points={
+                [
+                  "Monitored network devices and systems to ensure uptime and availability",
+                  "Troubleshot and resolved network issues using various troubleshooting tools and techniques",
+                  "Escalated incidents and service requests when appropriate",
+                ]
+              }
+            />
+            </SplideSlide>
+
             <SplideSlide>
               <ExperienceCard 
                 title="Software Developer" 
-                company="HedgeApple" 
-                companyImage="hedgeapple_logo.jpg"
+                company="Logistically" 
+                companyImage={"logistically_logo.jpg"}
                 skills={
                   [
                     "Python", 
                     "Django", 
-                    "React",
-                    "Next.js",
+                    "Elm",
                     "HTML",
                     "CSS",
-                    "JavaScript",
                   ]
                 } 
-                startDate="February 2023"
-                endDate="April 2023"
+                startDate="April 2022"
+                endDate="August 2022"
                 points={
                   [
-                    "Created responsive and user-friendly interfaces using React, Next.js, HTML, CSS, and JavaScript",
-                    "Developed and maintained front-end and back-end components of web applications",
+                    "Developed and maintained web applications using Django",
+                    "Designed and implemented user interfaces using Elm, ensuring responsive and intuitive designs",
                     "Collaborated with other developers, designers, and stakeholders to understand project requirements",
                   ]
                 }
               />
             </SplideSlide>
+              
             <SplideSlide>
               <ExperienceCard 
-                title="Tier I NOC Engineer" 
-                company="Cisco" 
-                companyImage={"cisco_logo.jpg"}
+                title="R&D Technician" 
+                company="Itron" 
+                companyImage={"itron_logo.png"}
                 skills={
                   [
-                    "CCNA", 
+                    "Python", 
                     "Troubleshooting", 
                     "Bash",
-                    "Python",
+                    "Excel",
                   ]
                 } 
-                startDate="October 2022"
-                endDate="January 2023"
+                startDate="May 2019"
+                endDate="April 2022"
                 points={
                   [
-                    "Monitored network devices and systems to ensure uptime and availability",
-                    "Troubleshot and resolved network issues using various troubleshooting tools and techniques",
-                    "Escalated incidents and service requests when appropriate",
+                    "Wrote and executed regression test cases to validate IoT products and technologies",
+                    "Developed and maintained Python scripts to automate testing and other tasks",
+                    "Worked collaboratively with cross-functional teams to identify and prioritize product development",
                   ]
                 }
               />
-              </SplideSlide>
-              <SplideSlide>
-                <ExperienceCard 
-                  title="Software Developer" 
-                  company="Logistically" 
-                  companyImage={"logistically_logo.jpg"}
-                  skills={
-                    [
-                      "Python", 
-                      "Django", 
-                      "Elm",
-                      "HTML",
-                      "CSS",
-                    ]
-                  } 
-                  startDate="April 2022"
-                  endDate="August 2022"
-                  points={
-                    [
-                      "Developed and maintained web applications using Django",
-                      "Designed and implemented user interfaces using Elm, ensuring responsive and intuitive designs",
-                      "Collaborated with other developers, designers, and stakeholders to understand project requirements",
-                    ]
-                  }
-                />
-              </SplideSlide>
-              <SplideSlide>
-                <ExperienceCard 
-                  title="R&D Technician" 
-                  company="Itron" 
-                  companyImage={"itron_logo.png"}
-                  skills={
-                    [
-                      "Python", 
-                      "Troubleshooting", 
-                      "Bash",
-                      "Excel",
-                    ]
-                  } 
-                  startDate="May 2019"
-                  endDate="April 2022"
-                  points={
-                    [
-                      "Wrote and executed regression test cases to validate IoT products and technologies",
-                      "Developed and maintained Python scripts to automate testing and other tasks",
-                      "Worked collaboratively with cross-functional teams to identify and prioritize product development",
-                    ]
-                  }
-                />
-              </SplideSlide>
-          </Splide>
-      </div>
+            </SplideSlide>
+        </Splide>
     </motion.div>
   );
 }

@@ -19,15 +19,15 @@ export default function Contact({ }: Props) {
 
   return (
     <div className='h-screen relative flex flex-col text-center md:text-left md:flex-row justify-evenly mx-auto max-w-7xl px-10 items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] pl-[20px] text-gray-500 text-2xl text-center'>
+      <h3 className='absolute top-20 uppercase tracking-[10px] pl-[20px] text-gray-500 text-2xl text-center'>
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10">
-        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col grayGradient borderBlur p-10 rounded-lg w-fit left-[50%] -ml-[316.5px] top-[30%] absolute space-y-2 z-20'>
+      <div>
+        <form onSubmit={handleSubmit(onSubmit)} className='max-[300px]:w-[260px] flex flex-col mx-auto grayGradient borderBlur p-5 sm:p-10 rounded-lg tabsolute space-y-2 z-20'>
           <div className='flex space-x-2'>
-            <input {...register('name')} className="contactInput" type="text" placeholder="Name" />
-            <input {...register('email')} className="contactInput" type="email" placeholder="Email" />
+            <input {...register('name')} className="contactInput w-[50%]" type="text" placeholder="Name" />
+            <input {...register('email')} className="contactInput w-[50%]" type="email" placeholder="Email" />
           </div>
           <input {...register('subject')} className="contactInput" type="text" placeholder="Subject" />
           <textarea {...register('message')} className="contactInput" placeholder="Message" />

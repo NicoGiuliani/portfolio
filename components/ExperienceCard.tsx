@@ -14,7 +14,7 @@ type Props = {
 
 export default function ExperienceCard({title, companyImage, company, skills, startDate, endDate, points }: Props) {
   return (
-    <article className='flex flex-col m-10 p-5 h-[70%] mx-auto borderBlur grayGradient rounded-3xl items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    <article className='flex flex-col min-h-[400px] sm:flex-row mx-3 my-10 p-5 pt-0 borderBlur grayGradient rounded-3xl items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] cursor-pointer transition-opacity duration-200'>
       <motion.img
         initial={{
           y: -100,
@@ -28,16 +28,15 @@ export default function ExperienceCard({title, companyImage, company, skills, st
         viewport={{ once: true }}
         src={companyImage}
         alt="HedgeApple logo"
-        height="200"
-        width="200"
-        className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-left-top'
+        
+        className='max-[300px]:hidden m-5 w-16 h-16 sm:w-20 sm:h-20 md:w-44 md:h-44 rounded-full md:rounded-lg object-cover object-left-top'
       />
 
-      <div className='w-[80%] px-0 md:px-10'>
+      <div className=''>
 
-        <h4 className='text-2xl sm:text-4xl font-light'>{title}</h4>
+        <h4 className='max-[300px]:text-base text-2xl font-light'>{title}</h4>
 
-        <p className='font-bold text-xl sm:text-2xl mt-1'>{company}</p>
+        <p className='font-bold text-lg sm:text-xl mt-1'>{company}</p>
 
         <div className='flex flex-wrap text-xs sm:text-sm space-x-2 my-2'>
           {skills ? skills.map((skill) => (
@@ -45,9 +44,9 @@ export default function ExperienceCard({title, companyImage, company, skills, st
           )): null}
         </div>
 
-        <p className='uppercase py-2 sm:py-5 text-gray-300'>From {startDate} to {endDate}</p>
+        <p className='uppercase text-sm py-2 text-gray-300'>From {startDate} to {endDate}</p>
 
-        <ul className='list-disc space-y-4 ml-5 text-xs sm:text-lg'>
+        <ul className='list-disc space-y-2 ml-5 text-xs sm:text-sm'>
           {points ? points.map((point) => (
             <li>{point}</li>
           )): null}

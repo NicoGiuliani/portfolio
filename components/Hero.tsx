@@ -17,7 +17,7 @@ export default function Hero({ }: Props) {
   });
   
   return (
-    <div className="h-[1280px] flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-[1280px] flex flex-col space-y-5 items-center justify-center text-center overflow-hidden">
       <HeroBackground />
       <Image
         className='relative rounded-3xl !my-[15px] h-44 w-44 mx-auto object-cover borderBlur'
@@ -26,7 +26,7 @@ export default function Hero({ }: Props) {
         height="500"
         alt="profile image"
       />
-      <div className="z-20">
+      <div className="z-20 w-[280px] sm:w-[100%]">
         <h1 className='text-xl sm:text-5xl lg:text-6xl font-semibold px-6'>
           <span className="mr-3">
             {text}
@@ -35,7 +35,7 @@ export default function Hero({ }: Props) {
         </h1>
 
           {/* anchors used as temporary fix for hash links not working in Next 13 */}
-          <div className="pt-5">
+          <div className="w-100 gap-1 pt-5">
             <a href="#about">
               <button className="heroButton borderBlur">About</button>
             </a>
