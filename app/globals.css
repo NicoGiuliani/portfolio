@@ -14,15 +14,15 @@ body,
 }
 
 
-/* @media screen and (max-width: 375px) {
-  footer {
-    bottom: calc(55px + (100vh - 100%));
+@media (max-width: 375px) {
+  .main-footer {
+    @apply !bottom-16
   }
 }
 
-footer {
-  bottom: calc(30px + (100vh - 100%));
-} */
+.main-footer {
+  @apply bottom-5
+}
 
 .splide__arrow {
   @apply !hidden
