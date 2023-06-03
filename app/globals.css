@@ -14,7 +14,7 @@ body,
 }
 
 footer {
-  bottom: calc(20px + (100vh - 100%));
+  bottom: calc(50px + (100vh - 100%));
 }
 
 .splide__arrow {
