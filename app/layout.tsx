@@ -13,15 +13,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const documentHeight = () => {
-    const doc = document.documentElement
-    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
-  }
-  if (typeof window !== 'undefined') {
-    window.addEventListener('resize', documentHeight)
-    documentHeight()
-  }
-
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
