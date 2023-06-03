@@ -18,9 +18,9 @@ footer {
   bottom: calc(30px + (100vh - 100%));
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   footer {
-    bottom: calc(75px + (100vh - 100%)) !important;
+    bottom: calc(55px + (100vh - 100%));
   }
 }
 
