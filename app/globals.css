@@ -20,7 +20,7 @@ footer {
 
 @media (max-width: 375px) {
   footer {
-    bottom: calc(55px + (100vh - 100%));
+    bottom: calc(75px + (100vh - 100%)) !important;
   }
 }
 
