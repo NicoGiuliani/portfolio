@@ -18,7 +18,7 @@ export default function About({}: Props) {
       transition={{
         duration: 1.5,
       }}
-      className='flex flex-col pt-20 sm:pt-0 relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 mx-auto justify-start sm:justify-evenly items-center'
+      className='flex flex-col pt-20 sm:pt-0 relative h-screen text-center w-[100%] md:w-[70%] md:text-left md:flex-row max-w-7xl px-10 mx-auto justify-start sm:justify-evenly items-center'
     >
       <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
 
@@ -44,7 +44,7 @@ export default function About({}: Props) {
 
         <div className='px-0 md:px-10'>
           <h4 className='mt-5 mb-2 max-[300px]:text-lg text-2xl sm:text-4xl font-semibold'>Hey, my name's Nico</h4>
-          <p className='text-xs sm:text-sm'>
+          <p className='text-xs sm:text-base'>
             I'm a fullstack web developer from Eastern Washington with about three years of experience. I enjoy building interesting websites, writing efficient scripts, and learning about new technologies. I also have three years of experience as an R&D technician working with IoT devices. Outside of tech, I enjoy exploring the region and photographing wildlife.
           </p>
         </div>

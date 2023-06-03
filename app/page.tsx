@@ -18,27 +18,27 @@ export default function Home() {
       <span id="top"/>
       <Header />
 
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-center min-h-[580px]">
         <Hero />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="about" className="snap-center min-h-[580px]">
         <About />
       </section>
 
-      <section id="experience" className="snap-center">
+      <section id="experience" className="snap-center min-h-[580px]">
         <Experience />
       </section>
 
-      <section id="skills" className="snap-center">
+      <section id="skills" className="snap-center min-h-[580px]">
         <Skills />
       </section>
 
-      <section id="projects" className="snap-center">
+      <section id="projects" className="snap-center min-h-[580px]">
         <Projects />
       </section>
 
-      <section id="contact" className="snap-start">
+      <section id="contact" className="snap-start min-h-[580px]">
         <Contact />
       </section>
 
