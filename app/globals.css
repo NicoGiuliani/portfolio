@@ -11,7 +11,10 @@ body,
     padding: 0;
     /* Prevents overflow on the x-axis */
     overflow-x: hidden;
-    position: fixed;
+}
+
+footer {
+  bottom: calc(10px + (100vh - 100%));
 }
 
 .splide__arrow {
