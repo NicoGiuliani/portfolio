@@ -16,7 +16,7 @@ body,
 
 @media (max-width: 375px) {
   .main-footer {
-    @apply !bottom-16
+    @apply !bottom-24
   }
 }
 
