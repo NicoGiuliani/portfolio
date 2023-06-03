@@ -42,7 +42,7 @@ export default function Home() {
         <Contact />
       </section>
 
-      <footer className="w-[99%] flex-shrink-0 overflow-x-hidden footer-element items-center">
+      <footer className="w-[98.5%] flex-shrink-0 overflow-x-hidden footer-element items-center">
         <div className="flex items-center justify-center">
           <a href="#top">
             <GiRattlesnake className="h-12 w-12 text-gray-400 hover:text-[#68f0be]" />
