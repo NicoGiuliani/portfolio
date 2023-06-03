@@ -1,3 +1,5 @@
+'use client'
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -17,8 +19,10 @@ export default function RootLayout({
     const doc = document.documentElement
     doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
   }
-  window.addEventListener('resize', documentHeight)
-  documentHeight()
+  if (typeof window !== 'undefined') {
+    window.addEventListener('resize', documentHeight)
+    documentHeight()
+  }
 
   return (
     <html lang="en">
