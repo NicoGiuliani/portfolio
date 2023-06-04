@@ -21,22 +21,22 @@ function Projects({ }: Props) {
         duration: 1.5,
       }}
       className='flex flex-col h-screen relative text-center mx-auto items-center'>
-      <h3 className='absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>Projects</h3>
-      <div className='absolute top-24 w-[90%] sm:w-[70%]'>
+      <h3 className='ml-[10px] absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>Projects</h3>
+      <div className='absolute top-24 w-[90%] sm:w-[70%] md:w-[40%] xl:w-[30%]'>
       <Splide 
         options={{
           rewind: true,
           gap   : '1rem',
         }} 
         aria-label="Work Experience"
-        className="borderBlur mx-auto z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
+        className="borderBlur mx-auto my-auto z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
               <a href="https://github.com/NicoGiuliani/django-ams/">
                 <img className="h-[100%] mx-auto rounded-lg" src="ams_preview.png" alt="" />
               </a>
             </div>
-            <div className="my-2 cont">
+            <div className="my-2">
               <h1 className="text-xl font-semibold">Animal Management System</h1>
               <div className='flex my-2 gap-2 justify-around'>
                 <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
@@ -92,7 +92,7 @@ function Projects({ }: Props) {
                 <img className="h-[100%]  mx-auto rounded-lg" src="patatap_clone_preview.gif" alt="" />
               </a>
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[40%]">
               <h1 className="text-xl font-semibold">Patatap Clone</h1>
               <div className='flex my-2 gap-2 justify-around'>
                 <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
@@ -106,7 +106,7 @@ function Projects({ }: Props) {
                 <img className="h-[100%]  mx-auto rounded-lg" src="moon_tracker_preview.jpg" alt="" />
               </a>
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[40%]">
               <h1 className="text-xl font-semibold">Moon Tracker</h1>
               <div className='flex my-2 gap-2 justify-around'>
                 <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
@@ -120,7 +120,7 @@ function Projects({ }: Props) {
                 <img className="h-[100%]  mx-auto rounded-lg" src="startpage_preview.gif" alt="" />
               </a>
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[40%]">
               <h1 className="text-xl font-semibold">Custom Startpage</h1>
               <div className='flex my-2 gap-2 justify-around'>
                 <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
@@ -134,7 +134,7 @@ function Projects({ }: Props) {
                 <img className="h-[100%]  mx-auto rounded-lg" src="connect_four_preview.gif" alt="" />
               </a>
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[40%]">
               <h1 className="text-xl font-semibold">Connect Four</h1>
               <div className='flex my-2 gap-2 justify-around'>
                 <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>

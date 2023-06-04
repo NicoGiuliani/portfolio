@@ -20,7 +20,7 @@ export default function About({}: Props) {
       }}
       className='flex flex-col pt-20 sm:pt-0 relative h-screen text-center w-[100%] md:w-[80%] md:text-left max-w-7xl px-10 mx-auto items-center'
     >
-      <h3 className='absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>About</h3>
+      <h3 className='ml-[10px] absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>About</h3>
       <div className='absolute top-36 flex flex-col md:flex-row'>
           <motion.img
             initial={{

@@ -18,14 +18,14 @@ export default function Contact({ }: Props) {
   };
 
   return (
-    <div className='h-screen relative flex flex-col text-center md:text-left md:flex-row justify-evenly mx-auto max-w-7xl max-[300px]:px-4 px-10 items-center'>
-      <h3 className='absolute top-20 uppercase tracking-[10px] pl-[20px] text-gray-500 text-2xl text-center'>
+    <div className='h-screen relative overflow-hidden flex flex-col items-center'>
+      <h3 className='ml-[10px] absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>
         Contact
       </h3>
 
-      <div className="w-[100%]">
-        <form onSubmit={handleSubmit(onSubmit)} className='w-[100%] md:w-[80%] flex flex-col mx-auto grayGradient borderBlur p-3 sm:p-5 rounded-lg tabsolute space-y-3 mt-5 z-20'>
-          <div className='flex space-x-2'>
+      <div className="absolute top-32 w-[90%] sm:w-[50%]">
+        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col mx-auto grayGradient borderBlur p-3 sm:p-5 xl:p-10 rounded-lg space-y-3 mt-5 z-20'>
+          <div className='flex space-x-3'>
             <input {...register('name')} className="contactInput w-[50%]" type="text" placeholder="Name" />
             <input {...register('email')} className="contactInput w-[50%]" type="email" placeholder="Email" />
           </div>
