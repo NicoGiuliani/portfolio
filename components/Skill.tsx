@@ -24,7 +24,7 @@ function Skill({ skillName }: Props) {
   let skillObject = null;
   switch (skillName) {
     case "django":
-      skillObject = <TbBrandDjango className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
+      skillObject = <TbBrandDjango className="p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />
       break;
     case "react":
       skillObject = <TbBrandReact className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
@@ -54,7 +54,7 @@ function Skill({ skillName }: Props) {
       skillObject = <TbBrandGithub className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "elm":
-      skillObject = <SiElm className="object-cover p-4 2xl:p-8 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
+      skillObject = <SiElm className="object-cover p-5 2xl:p-8 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
       break;
     case "linux":
       skillObject = <SiLinux className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-36 2xl:h-36" />;
