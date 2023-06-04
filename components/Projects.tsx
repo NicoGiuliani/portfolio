@@ -37,8 +37,8 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Animal Management System</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://django-ams-production.up.railway.app/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://django-ams-production.up.railway.app'>View project</a>
+                <a href='https://github.com/NicoGiuliani/django-ams'>View code</a>
               </div>
             </div>
           </SplideSlide>
@@ -49,7 +49,7 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Subnet Calculator</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://nicogiuliani.github.io/react-subnet-calculator/'>View project</a>
+                <a href='https://nicogiuliani.github.io/react-subnet-calculator'>View project</a>
                 <a href='https://github.com/NicoGiuliani/react-subnet-calculator'>View code</a>
               </div>
             </div>
@@ -61,7 +61,7 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Binary Converter</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://nicogiuliani.github.io/react-converter/'>View project</a>
+                <a href='https://nicogiuliani.github.io/react-converter'>View project</a>
                 <a href='https://github.com/NicoGiuliani/react-converter'>View code</a>
               </div>
             </div>
@@ -73,8 +73,8 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">The Great RGB Color Game</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://nicogiuliani.github.io/featured_projects/great_rgb_color_game/index.html/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/RGB-Color-Guessing-Game/tree/master'>View code</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/great_rgb_color_game/index.html'>View project</a>
+                <a href='https://github.com/NicoGiuliani/RGB-Color-Guessing-Game'>View code</a>
               </div>
             </div>
           </SplideSlide>
@@ -85,7 +85,7 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Patatap Clone</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://nicogiuliani.github.io/featured_projects/patatap_clone/circles.html/'>View project</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/patatap_clone/circles.html'>View project</a>
                 <a href='https://github.com/NicoGiuliani/PatatapClone'>View code</a>
               </div>
             </div>
@@ -97,7 +97,7 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Moon Tracker</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://nicogiuliani.github.io/featured_projects/moon_tracker/index.html/'>View project</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/moon_tracker/index.html'>View project</a>
                 <a href='https://github.com/NicoGiuliani/MoonTracker'>View code</a>
               </div>
             </div>
@@ -109,7 +109,7 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Custom Startpage</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://nicogiuliani.github.io/featured_projects/startpage_1/index.html/'>View project</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/startpage_1/index.html'>View project</a>
                 <a href='https://github.com/NicoGiuliani/StartPage-1'>View code</a>
               </div>
             </div>
@@ -121,7 +121,7 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Connect Four</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://nicogiuliani.github.io/featured_projects/connect_four/index.html/'>View project</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/connect_four/index.html'>View project</a>
                 <a href='https://github.com/NicoGiuliani/ConnectFour'>View code</a>
               </div>
             </div>
