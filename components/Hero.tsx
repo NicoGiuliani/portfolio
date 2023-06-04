@@ -10,10 +10,9 @@ export default function Hero({ }: Props) {
     words: [
       "Nico Julian",
       "Software Developer",
-      "Web Designer"
     ],
     loop: true,
-    delaySpeed: 1000,
+    delaySpeed: 2000,
   });
   
   return (

@@ -20,16 +20,16 @@ function Projects({ }: Props) {
       transition={{
         duration: 1.5,
       }}
-      className='flex flex-col h-screen relative text-center justify-evenly mx-auto items-center'>
+      className='flex flex-col h-screen relative text-center mx-auto items-center'>
       <h3 className='absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>Projects</h3>
-
+      <div className='absolute top-24'>
       <Splide 
         options={{
           rewind: true,
           gap   : '1rem',
         }} 
         aria-label="Work Experience"
-        className="borderBlur max-[450px]:w-[80%] w-[50%] xl:w-[45%] z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
+        className="borderBlur mx-auto max-[450px]:w-[80%] w-[50%] xl:w-[45%] z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
               <a href="https://github.com/NicoGiuliani/django-ams/">
@@ -142,10 +142,9 @@ function Projects({ }: Props) {
               </div>
             </div>
           </SplideSlide>
-        </Splide>
-
-
-      <div className="w-full absolute top-[30%] bg-[#68f0be]/50 left-0 h-[300px] -skew-y-12" />
+      </Splide>
+    </div>
+    <div className="w-full absolute top-[30%] bg-[#68f0be]/50 left-0 h-[300px] -skew-y-12" />
     </motion.div>
   )
 }
