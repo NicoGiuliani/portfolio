@@ -29,7 +29,7 @@ function Projects({ }: Props) {
           gap   : '1rem',
         }} 
         aria-label="Work Experience"
-        className="borderBlur max-[450px]:w-[80%] w-[70%] xl:w-[45%] z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
+        className="borderBlur max-[450px]:w-[80%] w-[50%] xl:w-[45%] z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
               <a href="https://github.com/NicoGiuliani/django-ams/">
