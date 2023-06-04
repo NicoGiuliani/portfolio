@@ -24,7 +24,7 @@ function Skills({ }: Props) {
       }}
       className='flex flex-col pt-20 sm:pt-0 relative h-screen text-center max-w-7xl mx-auto items-center'>
       <h3 className='ml-[10px] absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>Skills</h3>
-      <div className="absolute grid top-36 max-[400px]:grid-cols-3 grid-cols-4 gap-5 sm:gap-8 mx-auto">
+      <div className="my-auto grid top-36 max-[400px]:grid-cols-3 grid-cols-4 gap-5 min-[30px]:gap-8 mx-auto">
         <Skill skillName="django" />
         <Skill skillName="react" />
         <Skill skillName="next" />

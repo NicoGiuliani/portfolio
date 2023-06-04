@@ -17,7 +17,7 @@ export default function Experience({ }: Props) {
       <h3 className='ml-[10px] absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>
         Experience
       </h3>
-      <div className='absolute top-24 w-[90%] sm:w-[70%]'>
+      <div className='my-auto top-24 w-[90%] sm:w-[70%]'>
         <Splide 
           options={{
             rewind: true,
