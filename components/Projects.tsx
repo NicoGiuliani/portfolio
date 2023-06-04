@@ -22,14 +22,14 @@ function Projects({ }: Props) {
       }}
       className='flex flex-col h-screen relative text-center mx-auto items-center'>
       <h3 className='absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>Projects</h3>
-      <div className='absolute top-24'>
+      <div className='absolute top-24 w-[90%] sm:w-[70%]'>
       <Splide 
         options={{
           rewind: true,
           gap   : '1rem',
         }} 
         aria-label="Work Experience"
-        className="borderBlur mx-auto max-[450px]:w-[80%] w-[50%] xl:w-[45%] z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
+        className="borderBlur mx-auto z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
               <a href="https://github.com/NicoGiuliani/django-ams/">
