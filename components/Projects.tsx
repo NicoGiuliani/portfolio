@@ -32,113 +32,97 @@ function Projects({ }: Props) {
         className="borderBlur mx-auto my-auto z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://github.com/NicoGiuliani/django-ams/">
-                <img className="h-[100%] mx-auto rounded-lg" src="ams_preview.png" alt="" />
-              </a>
+              <img className="h-[100%] mx-auto rounded-lg" src="ams_preview.png" alt="Animal Management System homepage" />
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Animal Management System</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
+                <a href='https://django-ams-production.up.railway.app/'>View project</a>
                 <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
               </div>
             </div>
           </SplideSlide>
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://nicogiuliani.github.io/react-subnet-calculator/">
-                <img className="h-[100%]  mx-auto rounded-lg" src="subnet_calculator_preview.png" alt="" />
-              </a>
+              <img className="h-[100%]  mx-auto rounded-lg" src="subnet_calculator_preview.png" alt="Subnet Calculator preview" />
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Subnet Calculator</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://nicogiuliani.github.io/react-subnet-calculator/'>View project</a>
+                <a href='https://github.com/NicoGiuliani/react-subnet-calculator'>View code</a>
               </div>
             </div>
           </SplideSlide>
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://nicogiuliani.github.io/react-converter/">
-                <img className="h-[100%]  mx-auto rounded-lg" src="binary_converter_preview.png" alt="" />
-              </a>
+              <img className="h-[100%]  mx-auto rounded-lg" src="binary_converter_preview.png" alt="" />
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Binary Converter</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://nicogiuliani.github.io/react-converter/'>View project</a>
+                <a href='https://github.com/NicoGiuliani/react-converter'>View code</a>
               </div>
             </div>
           </SplideSlide>
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://nicogiuliani.github.io/featured_projects/great_rgb_color_game/index.html/">
-                <img className=" h-[100%]  mx-auto rounded-lg" src="great_rgb_color_game_preview.gif" alt="" />
-              </a>
+              <img className=" h-[100%]  mx-auto rounded-lg" src="great_rgb_color_game_preview.gif" alt="" />
             </div>
-            <div className="my-2">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">The Great RGB Color Game</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/great_rgb_color_game/index.html/'>View project</a>
+                <a href='https://github.com/NicoGiuliani/RGB-Color-Guessing-Game/tree/master'>View code</a>
               </div>
             </div>
           </SplideSlide>
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://nicogiuliani.github.io/featured_projects/patatap_clone/circles.html/">
-                <img className="h-[100%]  mx-auto rounded-lg" src="patatap_clone_preview.gif" alt="" />
-              </a>
+              <img className="h-[100%]  mx-auto rounded-lg" src="patatap_clone_preview.gif" alt="" />
             </div>
-            <div className="my-2 w-[40%]">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Patatap Clone</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/patatap_clone/circles.html/'>View project</a>
+                <a href='https://github.com/NicoGiuliani/PatatapClone'>View code</a>
               </div>
             </div>
           </SplideSlide>
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://nicogiuliani.github.io/featured_projects/moon_tracker/index.html/">
-                <img className="h-[100%]  mx-auto rounded-lg" src="moon_tracker_preview.jpg" alt="" />
-              </a>
+              <img className="h-[100%]  mx-auto rounded-lg" src="moon_tracker_preview.jpg" alt="" />
             </div>
-            <div className="my-2 w-[40%]">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Moon Tracker</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/moon_tracker/index.html/'>View project</a>
+                <a href='https://github.com/NicoGiuliani/MoonTracker'>View code</a>
               </div>
             </div>
           </SplideSlide>
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://nicogiuliani.github.io/featured_projects/startpage_1/index.html/">
-                <img className="h-[100%]  mx-auto rounded-lg" src="startpage_preview.gif" alt="" />
-              </a>
+              <img className="h-[100%]  mx-auto rounded-lg" src="startpage_preview.gif" alt="" />
             </div>
-            <div className="my-2 w-[40%]">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Custom Startpage</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/startpage_1/index.html/'>View project</a>
+                <a href='https://github.com/NicoGiuliani/StartPage-1'>View code</a>
               </div>
             </div>
           </SplideSlide>
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
-              <a href="https://nicogiuliani.github.io/featured_projects/connect_four/index.html/">
-                <img className="h-[100%]  mx-auto rounded-lg" src="connect_four_preview.gif" alt="" />
-              </a>
+              <img className="h-[100%]  mx-auto rounded-lg" src="connect_four_preview.gif" alt="" />
             </div>
-            <div className="my-2 w-[40%]">
+            <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl font-semibold">Connect Four</h1>
               <div className='flex my-2 gap-2 justify-around'>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View project</a>
-                <a href='https://github.com/NicoGiuliani/django-ams/'>View code</a>
+                <a href='https://nicogiuliani.github.io/featured_projects/connect_four/index.html/'>View project</a>
+                <a href='https://github.com/NicoGiuliani/ConnectFour'>View code</a>
               </div>
             </div>
           </SplideSlide>
