@@ -13,7 +13,7 @@ type Props = {
 
 export default function ExperienceCard({title, companyImage, company, skills, startDate, endDate, points }: Props) {
   return (
-    <article className='flex flex-col sm:flex-row mx-3 my-10 p-10 2xl:h-[500px] borderBlur grayGradient rounded-3xl items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] cursor-pointer transition-opacity duration-200'>
+    <article className='flex flex-col md:flex-row mx-3 my-10 p-10 2xl:h-[500px] borderBlur grayGradient rounded-3xl items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] cursor-pointer transition-opacity duration-200'>
       <motion.img
         initial={{
           y: -100,
@@ -28,7 +28,7 @@ export default function ExperienceCard({title, companyImage, company, skills, st
         src={companyImage}
         alt="HedgeApple logo"
         
-        className='max-[300px]:hidden m-5 2xl:m-10 w-16 h-16 sm:w-20 sm:h-20 md:w-44 md:h-44 2xl:h-60 2xl:w-60 rounded-full md:rounded-lg object-cover object-left-top'
+        className='max-[300px]:hidden mb-5 md:m-10 w-16 h-16 sm:w-20 sm:h-20 md:w-44 md:h-44 2xl:h-60 2xl:w-60 rounded-full md:rounded-lg object-cover object-left-top'
       />
       <div className='!mt-0'>
         <h4 className='max-[300px]:text-base text-2xl 2xl:text-4xl font-light'>{title}</h4>
