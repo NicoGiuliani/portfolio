@@ -35,6 +35,12 @@ export default function Contact({ }: Props) {
         </form>
       </div>
 
+      <footer className="w-100 mt-auto mb-5">
+        <div className="d-flex justify-content-center">
+          <span className="text-xs sm:text-base">&copy; 2023 Nico Julian. All Rights Reserved</span>
+        </div>
+      </footer>
+
 
     </div>
   )

@@ -43,7 +43,7 @@ export default function Home() {
         <Contact />
       </section>
 
-      <footer  className="sticky bottom-10 xl:bottom-0 flex flex-start justify-between items-center max-w-7xl mx-auto p-5 z-20">
+      <div className="sticky bottom-10 xl:bottom-0 flex flex-start justify-between items-center max-w-7xl mx-auto p-5 z-20">
         <motion.div 
           initial={{
             opacity: 0
@@ -59,7 +59,7 @@ export default function Home() {
             <GiRattlesnake className="h-12 w-12 text-gray-400 hover:text-[#68f0be]" />
           </a>
         </motion.div>
-      </footer>
+      </div>
 
     </main>
     </Suspense>
