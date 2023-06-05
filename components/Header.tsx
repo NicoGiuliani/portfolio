@@ -40,7 +40,7 @@ export default function Header({ }: Props) {
           transition={{
             duration: 1.5
           }}
-          className='flex flex-row space-x-2 items-center cursor-pointer'
+          className='flex flex-row space-x-2 items-center cursor-pointer w-[50px] sm:w-[130px]'
         >
           <MdOutlineEmail className='w-[25px] h-[25px] text-gray-400'/>
           <p className='uppercase text-sm text-gray-400 hidden sm:inline-flex'>Contact</p>
