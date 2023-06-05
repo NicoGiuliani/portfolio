@@ -42,8 +42,16 @@ export default function Home() {
         <Contact />
       </section>
 
-      <footer className="overflow-x-hidden footer-element items-center">
-        <div className="flex items-center justify-center">
+      {/* <footer className="overflow-x-hidden footer-element">
+        <div className="flex">
+          <a href="#top">
+            <GiRattlesnake className="h-12 w-12 text-gray-400 hover:text-[#68f0be]" />
+          </a>
+        </div>
+      </footer> */}
+
+      <footer  className="sticky bottom-0 flex flex-start justify-between items-center max-w-7xl mx-auto p-5 z-20">
+        <div className="ml-auto">
           <a href="#top">
             <GiRattlesnake className="h-12 w-12 text-gray-400 hover:text-[#68f0be]" />
           </a>
