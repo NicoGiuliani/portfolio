@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </footer> */}
 
-      <footer  className="sticky bottom-0 flex flex-start justify-between items-center max-w-7xl mx-auto p-5 z-20">
+      <footer  className="sticky bottom-10 flex flex-start justify-between items-center max-w-7xl mx-auto p-5 z-20">
         <div className="ml-auto">
           <a href="#top">
             <GiRattlesnake className="h-12 w-12 text-gray-400 hover:text-[#68f0be]" />
