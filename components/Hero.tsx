@@ -24,6 +24,7 @@ export default function Hero({ }: Props) {
         width="500"
         height="500"
         alt="profile image"
+        priority
       />
       <div className="z-20 w-[280px] sm:w-[100%]">
         <h1 className='text-xl sm:text-5xl lg:text-6xl font-semibold px-6'>
@@ -36,16 +37,16 @@ export default function Hero({ }: Props) {
           {/* anchors used as temporary fix for hash links not working in Next 13 */}
           <div className="w-100 gap-1 pt-5">
             <a href="#about">
-              <button className="heroButton borderBlur 2xl:text-2xl">About</button>
+              <button className="heroButton borderBlur 2xl:text-xl">About</button>
             </a>
             <a href="#experience">
-              <button className="heroButton borderBlur 2xl:text-2xl">Experience</button>
+              <button className="heroButton borderBlur 2xl:text-xl">Experience</button>
             </a>
             <a href="#skills">
-              <button className="heroButton borderBlur 2xl:text-2xl">Skills</button>
+              <button className="heroButton borderBlur 2xl:text-xl">Skills</button>
             </a>
             <a href="#projects">
-              <button className="heroButton borderBlur 2xl:text-2xl">Projects</button>
+              <button className="heroButton borderBlur 2xl:text-xl">Projects</button>
             </a>
           </div>
 

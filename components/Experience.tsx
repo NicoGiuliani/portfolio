@@ -17,7 +17,7 @@ export default function Experience({ }: Props) {
       <h3 className='ml-[10px] absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>
         Experience
       </h3>
-      <div className='absolute top-24 w-[90%] sm:w-[70%]'>
+      <div className='absolute top-24 2xl:top-32 w-[90%] sm:w-[70%]'>
         <Splide 
           options={{
             rewind: true,
@@ -29,6 +29,7 @@ export default function Experience({ }: Props) {
                 title="Software Developer" 
                 company="HedgeApple" 
                 companyImage="hedgeapple_logo.jpg"
+                key="HedgeApple"
                 skills={
                   [
                     "Python", 
@@ -56,6 +57,7 @@ export default function Experience({ }: Props) {
                 title="Tier I NOC Engineer" 
                 company="Cisco" 
                 companyImage={"cisco_logo.jpg"}
+                key="Cisco"
                 skills={
                   [
                     "CCNA", 
@@ -75,12 +77,12 @@ export default function Experience({ }: Props) {
                 }
               />
               </SplideSlide>
-
               <SplideSlide>
                 <ExperienceCard 
                   title="Software Developer" 
                   company="Logistically" 
                   companyImage={"logistically_logo.jpg"}
+                  key="Logistically"
                   skills={
                     [
                       "Python", 
@@ -101,12 +103,12 @@ export default function Experience({ }: Props) {
                   }
                 />
               </SplideSlide>
-                
               <SplideSlide>
                 <ExperienceCard 
                   title="R&D Technician" 
                   company="Itron" 
                   companyImage={"itron_logo.png"}
+                  key="Itron"
                   skills={
                     [
                       "Python", 

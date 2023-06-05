@@ -35,13 +35,13 @@ export default function ExperienceCard({title, companyImage, company, skills, st
         <p className='font-bold text-lg sm:text-xl 2xl:text-3xl mt-1'>{company}</p>
         <div className='flex flex-wrap text-xs sm:text-sm 2xl:text-2xl space-x-2 my-2'>
           {skills ? skills.map((skill) => (
-            <p>{skill}</p>
+            <p key={skill}>{skill}</p>
           )): null}
         </div>
         <p className='uppercase text-sm py-2 text-gray-300 2xl:text-2xl'>From {startDate} to {endDate}</p>
         <ul className='list-disc space-y-2 ml-5 text-xs sm:text-sm 2xl:text-xl'>
           {points ? points.map((point) => (
-            <li>{point}</li>
+            <li key={point}>{point}</li>
           )): null}
         </ul>
       </div>

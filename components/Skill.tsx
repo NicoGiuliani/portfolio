@@ -54,7 +54,7 @@ function Skill({ skillName }: Props) {
       skillObject = <SiElm className="object-cover p-5 2xl:p-8 w-16 h-16 md:w-20 md:h-20 2xl:w-44 2xl:h-44" />;
       break;
     case "linux":
-      skillObject = <SiLinux className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-44 2xl:h-44" />;
+      skillObject = <SiLinux className="object-cover p-4 2xl:p-6 w-16 h-16 md:w-20 md:h-20 2xl:w-44 2xl:h-44" />;
       break;
     case "tailwind":
       skillObject = <TbBrandTailwind className="object-cover p-4 w-16 h-16 md:w-20 md:h-20 2xl:w-44 2xl:h-44" />;

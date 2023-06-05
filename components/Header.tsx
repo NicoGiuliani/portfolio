@@ -30,7 +30,7 @@ export default function Header({ }: Props) {
       <a href="#contact">
         <motion.div
           initial={{
-            x: 50,
+            x: 160,
             opacity: 0
           }}
           whileInView={{
@@ -40,10 +40,10 @@ export default function Header({ }: Props) {
           transition={{
             duration: 1.5
           }}
-          className='flex flex-row space-x-2 items-center cursor-pointer w-[50px] sm:w-[130px]'
+          className='flex flex-row space-x-2 items-center cursor-pointer w-[25px] sm:w-[152px] 2xl:w-[159px]'
         >
           <MdOutlineEmail className='w-[25px] h-[25px] text-gray-400'/>
-          <p className='uppercase text-sm text-gray-400 hidden sm:inline-flex'>Contact</p>
+          <p className='uppercase text-sm 2xl:text-base text-gray-400 hidden sm:inline-flex tracking-[10px] ml-[15px]'>Contact</p>
         </motion.div>
       </a>
 
