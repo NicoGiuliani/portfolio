@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
-import ExperienceCard from './ExperienceCard'
 
 type Props = {}
 
@@ -22,7 +21,7 @@ function Projects({ }: Props) {
       }}
       className='flex flex-col h-screen relative text-center mx-auto items-center'>
       <h3 className='ml-[10px] absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>Projects</h3>
-      <div className='my-auto top-24 w-[90%] sm:w-[70%] md:w-[40%] xl:w-[33%] 2xl:w-[50%]'>
+      <div className='absolute top-24 w-[90%] sm:w-[70%] md:w-[40%] xl:w-[33%] 2xl:w-[50%]'>
       <Splide 
         options={{
           rewind: true,

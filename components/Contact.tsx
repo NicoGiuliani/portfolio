@@ -23,7 +23,7 @@ export default function Contact({ }: Props) {
         Contact
       </h3>
 
-      <div className="my-auto top-28 w-[90%] sm:w-[50%]">
+      <div className="absolute top-28 w-[90%] sm:w-[50%]">
         <form onSubmit={handleSubmit(onSubmit)} className='2xl:text-3xl flex flex-col mx-auto grayGradient borderBlur p-3 sm:p-5 2xl:p-8 rounded-lg space-y-3 2xl:space-y-5 mt-5 z-20'>
           <div className='flex space-x-3 2xl:space-x-5'>
             <input {...register('name')} className="contactInput w-[50%]" type="text" placeholder="Name" />

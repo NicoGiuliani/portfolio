@@ -13,7 +13,7 @@ type Props = {
 
 export default function ExperienceCard({title, companyImage, company, skills, startDate, endDate, points }: Props) {
   return (
-    <article className='flex flex-col min-h-[320px] max-[300px]:pt-5 sm:flex-row mx-3 my-10 p-5 pt-0 2xl:h-[500px] borderBlur grayGradient rounded-3xl items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] cursor-pointer transition-opacity duration-200'>
+    <article className='flex flex-col sm:flex-row mx-3 my-10 p-10 2xl:h-[500px] borderBlur grayGradient rounded-3xl items-center space-y-7 flex-shrink-0 snap-center bg-[#292929] cursor-pointer transition-opacity duration-200'>
       <motion.img
         initial={{
           y: -100,
