@@ -28,18 +28,18 @@ export default function ExperienceCard({title, companyImage, company, skills, st
         src={companyImage}
         alt="HedgeApple logo"
         
-        className='max-[300px]:hidden m-5 w-16 h-16 sm:w-20 sm:h-20 md:w-44 md:h-44 rounded-full md:rounded-lg object-cover object-left-top'
+        className='max-[300px]:hidden m-5 2xl:m-10 w-16 h-16 sm:w-20 sm:h-20 md:w-44 md:h-44 2xl:h-60 2xl:w-60 rounded-full md:rounded-lg object-cover object-left-top'
       />
       <div className='!mt-0'>
-        <h4 className='max-[300px]:text-base text-2xl font-light'>{title}</h4>
-        <p className='font-bold text-lg sm:text-xl mt-1'>{company}</p>
-        <div className='flex flex-wrap text-xs sm:text-sm space-x-2 my-2'>
+        <h4 className='max-[300px]:text-base text-2xl 2xl:text-4xl font-light'>{title}</h4>
+        <p className='font-bold text-lg sm:text-xl 2xl:text-3xl mt-1'>{company}</p>
+        <div className='flex flex-wrap text-xs sm:text-sm 2xl:text-2xl space-x-2 my-2'>
           {skills ? skills.map((skill) => (
             <p>{skill}</p>
           )): null}
         </div>
-        <p className='uppercase text-sm py-2 text-gray-300'>From {startDate} to {endDate}</p>
-        <ul className='list-disc space-y-2 ml-5 text-xs sm:text-sm'>
+        <p className='uppercase text-sm py-2 text-gray-300 2xl:text-2xl'>From {startDate} to {endDate}</p>
+        <ul className='list-disc space-y-2 ml-5 text-xs sm:text-sm 2xl:text-xl'>
           {points ? points.map((point) => (
             <li>{point}</li>
           )): null}

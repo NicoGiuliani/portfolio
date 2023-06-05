@@ -23,15 +23,15 @@ export default function Contact({ }: Props) {
         Contact
       </h3>
 
-      <div className="my-auto top-28 w-[90%] sm:w-[50%] xl:w-[30%]">
-        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col mx-auto grayGradient borderBlur p-3 sm:p-5 rounded-lg space-y-3 mt-5 z-20'>
-          <div className='flex space-x-3'>
+      <div className="my-auto top-28 w-[90%] sm:w-[50%]">
+        <form onSubmit={handleSubmit(onSubmit)} className='2xl:text-3xl flex flex-col mx-auto grayGradient borderBlur p-3 sm:p-5 2xl:p-8 rounded-lg space-y-3 2xl:space-y-5 mt-5 z-20'>
+          <div className='flex space-x-3 2xl:space-x-5'>
             <input {...register('name')} className="contactInput w-[50%]" type="text" placeholder="Name" />
             <input {...register('email')} className="contactInput w-[50%]" type="email" placeholder="Email" />
           </div>
           <input {...register('subject')} className="contactInput" type="text" placeholder="Subject" />
           <textarea {...register('message')} className="contactInput" placeholder="Message" />
-          <button type="submit" className='bg-[#68f0be] rounded-lg text-black font-bold py-5 px-10 text-lg'>Submit</button>
+          <button type="submit" className='bg-[#68f0be] rounded-lg text-black font-bold py-5 px-10 text-lg 2xl:text-2xl'>Submit</button>
         </form>
       </div>
 
