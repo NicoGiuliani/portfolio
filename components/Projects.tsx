@@ -31,6 +31,17 @@ function Projects({ }: Props) {
         className="borderBlur mx-auto my-auto z-20 mt-10 rounded-lg p-5 bg-gradient-to-b from-[#222] to-[#333] max-w-7xl">
           <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
             <div className='h-[80%]'>
+              <img className="h-[100%] mx-auto rounded-lg" src="spokane_archives_preview.png" alt="Spokane Archives site preview" />
+            </div>
+            <div className="my-2 w-[100%] sm:w-[80%]">
+              <h1 className="text-xl 2xl:text-4xl font-semibold">Spokane Archives</h1>
+              <div className='flex my-3 gap-2 justify-evenly'>
+                <a className="text-sm 2xl:text-xl" href='https://spokanearchives.com'>View project</a>
+              </div>
+            </div>
+          </SplideSlide>
+          <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
+            <div className='h-[80%]'>
               <img className="h-[100%] mx-auto rounded-lg" src="ams_preview.png" alt="Animal Management System homepage" />
             </div>
             <div className="my-2 w-[100%] sm:w-[80%]">
