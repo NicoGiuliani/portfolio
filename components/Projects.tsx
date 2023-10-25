@@ -36,7 +36,19 @@ function Projects({ }: Props) {
             <div className="my-2 w-[100%] sm:w-[80%]">
               <h1 className="text-xl 2xl:text-4xl font-semibold">Spokane Archives</h1>
               <div className='flex my-3 gap-2 justify-evenly'>
-                <a className="text-sm 2xl:text-xl" href='https://spokanearchives.com'>View project</a>
+                <a className="text-sm p-5 justify-content-center 2xl:text-xl" href='https://spokanearchives.com'>View project</a>
+              </div>
+            </div>
+          </SplideSlide>
+          <SplideSlide className='flex flex-col mx-auto text-center justify-start items-center'>
+            <div className='h-[80%]'>
+              <img className="h-[100%] mx-auto rounded-lg" src="rock_paper_scissors_lizard_spock_preview.png" alt="Rock Paper Scissors Lizard Spock preview" />
+            </div>
+            <div className="my-2 w-[100%] sm:w-[80%]">
+              <h1 className="text-xl 2xl:text-4xl font-semibold">Rock Paper Scissors Lizard Spock</h1>
+              <div className='flex my-3 gap-2 justify-evenly'>
+                <a className="text-sm 2xl:text-xl" href='https://github.com/NicoGiuliani/rock-paper-scissors-lizard-spock'>View project</a>
+                <a className="text-sm 2xl:text-xl" href='https://rock-paper-scissors-lizard-spock-nicogiuliani.vercel.app/'>View code</a>
               </div>
             </div>
           </SplideSlide>
