@@ -19,7 +19,7 @@ export default function Home() {
       <span id="top"/>
       <Header />
 
-      <section id="hero" className="snap-center mb-44">
+      <section id="hero" className="snap-center" style={{"top": "-350px", "position": "relative"}}>
         <Hero />
       </section>
 

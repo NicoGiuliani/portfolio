@@ -16,7 +16,7 @@ export default function Hero({ }: Props) {
   });
   
   return (
-    <div className="h-[1280px] flex flex-col space-y-5 items-center justify-center text-center overflow-hidden">
+    <div className="min-h-[1280px] top-[-500px] flex flex-col space-y-5 items-center justify-center text-center overflow-hidden">
       <HeroBackground />
       <Image
         className='relative rounded-3xl !my-[15px] h-44 w-44 mx-auto object-cover borderBlur'
